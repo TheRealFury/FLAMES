@@ -77,6 +77,23 @@ function displayStuff(){
 
   if(flamesCharacter != ''){
     fill('white');
-    text("Result - " + flamesCharacter, 200, 265);
+    if(flamesCharacter == 'F'){
+      text("Result - Friends", 200, 265);
+    }
+    else if(flamesCharacter == 'L'){
+      text("Result - Lovers", 200, 265);
+    }
+    else if(flamesCharacter == 'A'){
+      text("Result - Affair", 200, 265);
+    }
+    else if(flamesCharacter == 'M'){
+      text("Result - Marriage", 200, 265);
+    }
+    else if(flamesCharacter == 'E'){
+      text("Result - Engaged", 200, 265);
+    }
+    else if(flamesCharacter == 'S'){
+      text("Result - Sex", 200, 265);
+    }
   }
 }
